@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:orientation="vertical"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.vikram.myo.Description"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="25dp"
+        android:layout_margin="5dp"
+        android:clickable="false"
+        android:background="#ffffff"
+        >
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:clickable="false"
+        android:id="@+id/RcyclerView2">
+
+
+    </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact: 8283074082"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/contact"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Price : Rs 4500pm"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/email"
+                android:text="Email: vkrmsingh8697@gmail.com"
+                android:layout_marginTop="20dp"
+                android:textSize="18dp"
+                />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        >
+
+
+        <ImageView
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/button2"
+            android:layout_marginLeft="30dp"
+            android:foreground="@drawable/parking"
+            android:background="#00c68a8a" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/button"
+            android:foreground="@drawable/ac"
+            android:background="#00ffffff" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/button3"
+            android:foreground="@drawable/tv"
+            android:background="#00ffffff" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/button5"
+            android:foreground="@drawable/wifi"
+            android:background="#00ffffff" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:text="parking"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:text="AC"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="TV"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="Wifi"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        >
+        <ImageView
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/btton2"
+            android:layout_marginLeft="30dp"
+            android:foreground="@drawable/food"
+            android:background="#00ffffff" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/buton"
+            android:foreground="@drawable/washing"
+            android:background="#00ffffff" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/btton3"
+            android:foreground="@drawable/water"
+            android:background="#00ffffff" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/btton5"
+            android:foreground="@drawable/refrigerator"
+            android:background="#00ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:text="Food"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Loundary"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:text="RO Water"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Freeze"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:background="#ffffff"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Please Note:-"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+
+            android:text="* No unmarried couples allowed. "
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+
+            android:text="* Guests need valid address and ID proofs with city not the same as the PG."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:text=" * Your are booking room/rooms that are part of an Apartment and not the entire Apartment.."
+            />
+
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+
+

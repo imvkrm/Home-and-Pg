@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#027e40"
+    tools:context="com.example.vikram.myo.Base1">
+    <RelativeLayout
+        android:id="@+id/loadingPane"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_margin="10sp"
+        android:background="#027e40">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:weightSum="12"
+            android:paddingBottom="30sp"
+            android:paddingTop="30sp"
+            android:background="#7f7cefac">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal">
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/t1"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:background="@drawable/nme"
+                    android:hint="Name"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#027e40"
+                    android:maxLines="1"
+                    android:inputType="textCapWords"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal">
+                <EditText
+                    android:background="@drawable/nme"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/t2"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:hint="E-mail Address"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#027e40"
+                    android:maxLines="1"
+                    android:inputType="textEmailAddress"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal">
+                <EditText
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/t5"
+                    android:paddingLeft="53dp"
+                    android:paddingRight="15dp"
+                    android:hint="Contact No."
+                    android:background="@drawable/phon"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#027e40"
+                    android:maxLines="1"
+
+                    android:inputType="phone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal">
+                <EditText
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/t3"
+                    android:paddingLeft="53dp"
+                    android:paddingRight="15dp"
+                    android:hint="Username"
+                    android:background="@drawable/luser"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#027e40"
+                    android:maxLines="1"
+                    android:inputType="text"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal">
+                <EditText
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:inputType="textPassword"
+                    android:id="@+id/t4"
+                    android:hint="Password"
+                    android:ems="10"
+                    android:background="@drawable/lpass"
+                    android:paddingLeft="53dp"
+                    android:paddingRight="15dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#027e40"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal">
+                <Button
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/button1"
+                    android:background="@drawable/loginbutton"
+                    android:text="SIGN UP"
+                    android:textColor="#027e40"
+                    android:onClick="signup" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+

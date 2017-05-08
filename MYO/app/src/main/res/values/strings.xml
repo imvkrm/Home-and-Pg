@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MYO</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_base1">Base1</string>
+    <string name="title_activity_base2">Base2</string>
+    <string name="title_activity_base_n">BaseN</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_base_n1">BaseN1</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_map1">Map</string>
+    <string name="title_activity_base3">Base3</string>
+    <string name="title_activity_base4">Base4</string>
+    <string name="title_activity_basedes">Basedes</string>
+    <string name="title_activity_pbmain">PBmain</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_pbimageview">PBimageview</string>
+    <string name="title_activity_signups">Signups</string>
+    <string name="title_activity_chandigarh">Chandigarh</string>
+    <string name="title_activity_description">Description</string>
+    <string name="title_activity_main1">MainActivity1</string>
+</resources>

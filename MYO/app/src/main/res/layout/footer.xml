@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="wrap_content" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="60dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:background="#00000000"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:id="@+id/lay_indicator">
+
+        <ImageView android:layout_height="10dp"
+            android:layout_width="10dp"
+            android:id="@+id/btn1"
+            android:src="@drawable/holo_circle"
+            android:layout_gravity="center_vertical"
+
+            />
+
+        <ImageView android:layout_height="10dp" android:layout_width="10dp"
+            android:id="@+id/btn2"
+            android:layout_toRightOf="@id/btn1"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/holo_circle"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView android:layout_height="10dp" android:layout_width="10dp"
+            android:id="@+id/btn3"
+            android:layout_toRightOf="@id/btn2"
+            android:layout_margin="10dp"
+
+            android:src="@drawable/holo_circle"
+            android:layout_gravity="center_vertical"
+            />
+        <ImageView android:layout_height="10dp" android:layout_width="10dp"
+            android:id="@+id/btn4"
+            android:layout_toRightOf="@id/btn3"
+            android:src="@drawable/holo_circle"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
